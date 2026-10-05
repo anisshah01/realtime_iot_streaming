@@ -285,18 +285,11 @@ GROUP BY device_id;
 
 Possible extensions include:
 
-- Kafka Connect for database ingestion
-- Apache Spark Structured Streaming
-- Apache Airflow for orchestration
-- Data quality monitoring
-- Dead-letter topic for invalid events
-- Environment-based configuration
-- Idempotent database writes
-- Monitoring with Prometheus/Grafana
-- Power BI dashboard for sensor analytics
+- Move database credentials to environment variables
+- Add more sensor devices and realistic sensor behavior
+- Add additional data quality checks
+- Build a Power BI dashboard for sensor analytics
 
 ## Author
 
 **Anis Shah**
-
-Data Analytics / Data Engineering Portfolio Project
