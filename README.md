@@ -105,7 +105,7 @@ The consumer uses two conditions for flushing data to PostgreSQL:
 ```text
 50 records
      OR
-4 seconds elapsed
+10 seconds elapsed
 ```
 
 Whichever condition is reached first triggers a database insert.
